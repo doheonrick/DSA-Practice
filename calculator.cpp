@@ -1,7 +1,7 @@
 #include <stdexcept>
-#include <iostream>
+#include "calculator.h"
 
-// Addition
+    // Addition
     int add(int a, int b)
     {
         return a + b;
@@ -30,19 +30,6 @@
         return a / b;
     }  
 
-int main()
-{
-    std::cout << "Enter two numbers separated by space: ";
-    
-    int a, b;
-    std::cin >> a >> b;
 
-    std::cout << "Sum: " << add(a, b) << "\n";
-    std::cout << "Subtract: " << subtract(a, b) << "\n";
-    std::cout << "Multipy: " << multiply(a, b) << "\n";
-    std::cout << "Divide: " << divide(a, b) << "\n";
-
-    return 0;
-}
 
 

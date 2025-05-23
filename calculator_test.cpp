@@ -1,6 +1,8 @@
 // calculator_test.cpp
 
 #include <cassert>
+#include <stdexcept>
+#include "calculator.h"
 
 // forward declarations of your arithmetic functions
 int add(int a, int b);
@@ -8,7 +10,7 @@ int subtract(int a, int b);
 int multiply(int a, int b);
 int divide(int a, int b);
 
-/*
+
 int main()
 {
     // addition
@@ -37,4 +39,3 @@ int main()
 
     return 0;
 }
-*/
